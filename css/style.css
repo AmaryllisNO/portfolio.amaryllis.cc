@@ -287,7 +287,8 @@ iframe {
 
 
 
-.thumbnail-recycle_website {
+.thumbnail-recycle_website,
+.thumbnail-numetry_website {
     width: 100%;
     max-width: 1000px;
     min-height: 200px;
@@ -325,7 +326,8 @@ iframe {
 }
 
 
-.thumbnail-recycle_website a, 
+.thumbnail-recycle_website a,
+.thumbnail-numetry_website a, 
 .thumbnail-webdev a,
 .thumbnail-music a,
 .thumbnail-art a { 
@@ -460,6 +462,111 @@ form .submit {
 
 form .submit:hover {
     color: #6BD9EA;
+}
+
+
+/* --- SUB PAGES | MUSIC --- */
+
+#arrowleft {
+    margin-right: 6px;
+}
+
+.music-content h2,
+.webdev-content h2,
+.art-content h2 {
+    margin-top: 4em;
+}
+
+.listen-neveragainEP {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listen-neveragainEP img,
+.listen-neveragainEP h2 {
+    margin-top: 1em;
+    display: inline-block;
+}
+
+
+.listen-neveragainEP img {
+    margin-left: 10px;
+}
+
+.listen-neveragainEP a {
+    width: 124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.music-content .ep-card {
+    max-width: 267px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+
+
+/* --- SUB PAGES | WEBDEV --- */
+
+
+.webdev-content .thumbnail-recycle_website h2 {
+    margin-top: 0;
+}
+
+
+.thumbnail-numetry_website h2 {
+    margin-top: 0;
+}
+
+.thumbnail-numetry_website {
+    background-image: url(../assets/images/numetry.png);
+    min-height: 300px;
+}
+
+.webdev-content h4,
+.art-content h4 {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.webdev-content .logos img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+.webdev-content .timeline img {
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 4em;
+}
+
+.logos {
+    margin-bottom: 4em;
+}
+
+
+/* --- SUB PAGES | ART --- */
+
+.art-images {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.art-content h4 {
+    max-width: 700px;
+}
+
+.art-images img {
+    max-width: 100%;
+    margin: 0;
 }
 
 /* --- FOOTER CSS --- */
